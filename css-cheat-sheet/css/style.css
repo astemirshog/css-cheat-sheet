@@ -19,6 +19,19 @@ body {
 
 a {
     text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color:red;
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: black;
 }
 
 .container {
@@ -89,4 +102,8 @@ a {
 .categories ul {
     padding: 0;
     list-style: square;
+}
+
+.categories li {
+    padding: bottom;
 }
