@@ -30,13 +30,20 @@ a:active {
     color: green;
 }
 
-a:visited {
-    color: black;
-}
-
 .container {
     width: 80%;
     margin:auto;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background-color: red;
 }
 
 .box-1 {
@@ -112,5 +119,51 @@ a:visited {
 }
 
 .my-form{
-    
+    padding: 20px;
+
+
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+    padding: 20px;
+    width: 100%;
+}
+
+.block {
+    float:left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    position: relative;
 }
